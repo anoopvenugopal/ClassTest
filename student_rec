@@ -1,5 +1,8 @@
 class StudentRec:
-    def __init__(self,name,add,phone):
+    def __init__(self,name,rollno,add,phone):
+        self.r=rollno
         self.n=name
         self.a=add
         self.p=phone
+s1=StudentRec('anoop',11,'d14','9878451232')
+s2=StudentRec('abhi',10,'d15','7898654512')
