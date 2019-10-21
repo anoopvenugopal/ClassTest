@@ -9,7 +9,7 @@ class StudentRec:
         self.__add = input("Enter address:\t")
         self.__phone = input("Enter phone:\t")
     def showData(self):
-        print("RollNo\t:",self.__id)
+        print("RollNo\t:",self.__rollNo)
         print("Name\t:", self.__name)
         print("add\t:", self.__add)
         print("Phone\t:", self.__phone)
