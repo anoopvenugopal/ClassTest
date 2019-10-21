@@ -7,7 +7,7 @@ class StudentRec:
         self.__rollNo=int(input("Enter RollNo:\t"))
         self.__name = input("Enter Name:\t")
         self.__add = input("Enter address:\t")
-        self.__phone = int(input("Enter phone:\t"))
+        self.__phone = input("Enter phone:\t")
     def showData(self):
         print("RollNo\t:",self.__id)
         print("Name\t:", self.__name)
