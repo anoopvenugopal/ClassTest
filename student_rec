@@ -1,8 +1,24 @@
 class StudentRec:
-    def __init__(self,name,rollno,add,phone):
-        self.r=rollno
-        self.n=name
-        self.a=add
-        self.p=phone
-s1=StudentRec('anoop',11,'d14','9878451232')
-s2=StudentRec('abhi',10,'d15','7898654512')
+    __rollNo=0
+    __name=""
+    __add=""
+    __phone=""
+    def addData(self):
+        self.__rollNo=int(input("Enter RollNo:\t"))
+        self.__name = input("Enter Name:\t")
+        self.__add = input("Enter address:\t")
+        self.__phone = int(input("Enter phone:\t"))
+    def showData(self):
+        print("RollNo\t:",self.__id)
+        print("Name\t:", self.__name)
+        print("add\t:", self.__add)
+        print("Phone\t:", self.__phone)
+
+
+def main():
+    s1=StudentRec()
+    s1.addData()
+    s1.showData()
+
+if __name__=="__main__":
+    main()
