@@ -1,1 +1,5 @@
-
+class StudentRec:
+    def __init__(self,name,add,phone):
+        self.n=name
+        self.a=add
+        self.p=phone
